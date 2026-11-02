@@ -1,0 +1,150 @@
+loaded KPST 7,829,897 rows, USPC utility 5,771,098 rows in 3s
+                                           check        value
+                                  sample patents 6.576000e+03
+                 sample patents in KPST universe 6.514000e+03
+          sample patents with USPC primary class 6.514000e+03
+       sample patents with USPC primary subclass 6.514000e+03
+                max |pctile_0_5y file - parquet| 2.980194e-08
+             population patents 1989-2010 (KPST) 3.047685e+06
+    population 1989-2010 with USPC primary class 3.047612e+06
+ agreement pctile>=0.90 vs KPST top10 flag, 0_5y 1.000000e+00
+agreement pctile>=0.90 vs KPST top10 flag, 0_10y 1.000000e+00
+window       n  mean_pctile  median_pctile  sd_pctile  top10_share  first_year  last_year
+  0_5y 2502951     0.482461       0.467133   0.322648     0.138776        1989       2007
+  0_1y 3047683     0.489087       0.477748   0.299714     0.111801        1989       2010
+ 0_10y 1694782     0.474439       0.449663   0.343504     0.165042        1989       2002
+0_5y year done 8s
+0_5y year_x_class done 11s
+0_5y year_x_subclass done 15s
+0_5y common-subset tiers done 23s
+0_1y year done 26s
+0_1y year_x_class done 30s
+0_1y year_x_subclass done 35s
+0_1y common-subset tiers done 44s
+0_10y year done 46s
+0_10y year_x_class done 48s
+0_10y year_x_subclass done 52s
+0_10y common-subset tiers done 57s
+window            tier             subset group  n_rows  n_scored  n_with_stratum_info  n_no_pool_match  n_used  median_pool_size
+  0_5y            year                all    BT    1644      1607                 1607                0    1607          146970.0
+  0_5y            year                all   CMP    4932      4801                 4801                0    4801          146970.0
+  0_5y    year_x_class                all    BT    1644      1607                 1607                0    1607            1073.0
+  0_5y    year_x_class                all   CMP    4932      4801                 4801                0    4801            1112.0
+  0_5y year_x_subclass                all    BT    1644      1607                 1607              187    1420               7.0
+  0_5y year_x_subclass                all   CMP    4932      4801                 4801              501    4300               7.0
+  0_5y            year subclass_matchable    BT    1420      1420                 1420                0    1420          152900.0
+  0_5y            year subclass_matchable   CMP    4300      4300                 4300                0    4300          152900.0
+  0_5y    year_x_class subclass_matchable    BT    1420      1420                 1420                0    1420            1119.5
+  0_5y    year_x_class subclass_matchable   CMP    4300      4300                 4300                0    4300            1138.0
+  0_1y            year                all    BT    1644      1632                 1632                0    1632          146970.0
+  0_1y            year                all   CMP    4932      4882                 4882                0    4882          152900.0
+  0_1y    year_x_class                all    BT    1644      1632                 1632                0    1632            1077.0
+  0_1y    year_x_class                all   CMP    4932      4882                 4882                0    4882            1119.0
+  0_1y year_x_subclass                all    BT    1644      1632                 1632              187    1445               7.0
+  0_1y year_x_subclass                all   CMP    4932      4882                 4882              502    4380               7.0
+  0_1y            year subclass_matchable    BT    1445      1445                 1445                0    1445          152900.0
+  0_1y            year subclass_matchable   CMP    4380      4380                 4380                0    4380          152900.0
+  0_1y    year_x_class subclass_matchable    BT    1445      1445                 1445                0    1445            1120.0
+  0_1y    year_x_class subclass_matchable   CMP    4380      4380                 4380                0    4380            1147.0
+ 0_10y            year                all    BT    1644      1308                 1308                0    1308          146970.0
+ 0_10y            year                all   CMP    4932      3781                 3781                0    3781          146970.0
+ 0_10y    year_x_class                all    BT    1644      1308                 1308                0    1308             976.5
+ 0_10y    year_x_class                all   CMP    4932      3781                 3781                0    3781            1019.0
+ 0_10y year_x_subclass                all    BT    1644      1308                 1308              166    1142               6.0
+ 0_10y year_x_subclass                all   CMP    4932      3781                 3781              433    3348               6.0
+ 0_10y            year subclass_matchable    BT    1142      1142                 1142                0    1142          146970.0
+ 0_10y            year subclass_matchable   CMP    3348      3348                 3348                0    3348          146970.0
+ 0_10y    year_x_class subclass_matchable    BT    1142      1142                 1142                0    1142            1045.5
+ 0_10y    year_x_class subclass_matchable   CMP    3348      3348                 3348                0    3348            1077.0
+window            tier group          stat  n_used  observed  null_mean  null_lo95  null_hi95  p_two_sided  diff_in_pop_sd     ks_D          ks_p
+  0_5y            year    BT   mean_pctile    1607  0.760303   0.476750   0.460633   0.492878     0.001998        0.869467 0.384457 3.379928e-214
+  0_5y            year    BT   top10_share    1607  0.429994   0.142989   0.126945   0.159925     0.001998             NaN 0.384457 3.379928e-214
+  0_5y            year    BT median_pctile    1607  0.867425   0.453900   0.419679   0.487370     0.001998             NaN 0.384457 3.379928e-214
+  0_5y            year   CMP   mean_pctile    4801  0.744975   0.477546   0.467875   0.486812     0.001998        0.820638 0.353030  0.000000e+00
+  0_5y            year   CMP   top10_share    4801  0.420329   0.142363   0.133306   0.152677     0.001998             NaN 0.353030  0.000000e+00
+  0_5y            year   CMP median_pctile    4801  0.856471   0.456083   0.435685   0.475533     0.001998             NaN 0.353030  0.000000e+00
+  0_5y    year_x_class    BT   mean_pctile    1607  0.760303   0.677804   0.667940   0.688144     0.001998        0.275397 0.125679  1.387118e-22
+  0_5y    year_x_class    BT   top10_share    1607  0.429994   0.328861   0.310516   0.346609     0.001998             NaN 0.125679  1.387118e-22
+  0_5y    year_x_class    BT median_pctile    1607  0.867425   0.783410   0.766182   0.800989     0.001998             NaN 0.125679  1.387118e-22
+  0_5y    year_x_class   CMP   mean_pctile    4801  0.744975   0.672523   0.666111   0.678592     0.001998        0.241086 0.112454  2.438940e-53
+  0_5y    year_x_class   CMP   top10_share    4801  0.420329   0.319938   0.308894   0.330348     0.001998             NaN 0.112454  2.438940e-53
+  0_5y    year_x_class   CMP median_pctile    4801  0.856471   0.775954   0.765564   0.786447     0.001998             NaN 0.112454  2.438940e-53
+  0_5y year_x_subclass    BT   mean_pctile    1420  0.763869   0.717620   0.709545   0.725834     0.001998        0.165451 0.085125  2.117652e-09
+  0_5y year_x_subclass    BT   top10_share    1420  0.431690   0.371826   0.357007   0.388028     0.001998             NaN 0.085125  2.117652e-09
+  0_5y year_x_subclass    BT median_pctile    1420  0.868301   0.819844   0.809284   0.831513     0.001998             NaN 0.085125  2.117652e-09
+  0_5y year_x_subclass   CMP   mean_pctile    4300  0.753319   0.714636   0.710027   0.719048     0.001998        0.137470 0.072143  6.604999e-20
+  0_5y year_x_subclass   CMP   top10_share    4300  0.426977   0.366961   0.358599   0.376279     0.001998             NaN 0.072143  6.604999e-20
+  0_5y year_x_subclass   CMP median_pctile    4300  0.861443   0.818263   0.812272   0.825332     0.001998             NaN 0.072143  6.604999e-20
+  0_5y            year    BT   mean_pctile    1420  0.763869   0.476669   0.459511   0.493911     0.001998        0.880299 0.389766 8.717068e-195
+  0_5y            year    BT   top10_share    1420  0.431690   0.142530   0.123944   0.162676     0.001998             NaN 0.389766 8.717068e-195
+  0_5y            year    BT median_pctile    1420  0.868301   0.454450   0.419028   0.489156     0.001998             NaN 0.389766 8.717068e-195
+  0_5y            year   CMP   mean_pctile    4300  0.753319   0.477506   0.467851   0.487059     0.001998        0.846360 0.365413  0.000000e+00
+  0_5y            year   CMP   top10_share    4300  0.426977   0.141602   0.131860   0.151628     0.001998             NaN 0.365413  0.000000e+00
+  0_5y            year   CMP median_pctile    4300  0.861443   0.456951   0.437078   0.477638     0.001998             NaN 0.365413  0.000000e+00
+  0_5y    year_x_class    BT   mean_pctile    1420  0.763869   0.683007   0.671383   0.694609     0.001998        0.272807 0.126797  2.322397e-20
+  0_5y    year_x_class    BT   top10_share    1420  0.431690   0.331511   0.312676   0.351408     0.001998             NaN 0.126797  2.322397e-20
+  0_5y    year_x_class    BT median_pctile    1420  0.868301   0.787672   0.769952   0.806166     0.001998             NaN 0.126797  2.322397e-20
+  0_5y    year_x_class   CMP   mean_pctile    4300  0.753319   0.679758   0.672839   0.686259     0.001998        0.247572 0.115372  2.556898e-50
+  0_5y    year_x_class   CMP   top10_share    4300  0.426977   0.325901   0.314419   0.336512     0.001998             NaN 0.115372  2.556898e-50
+  0_5y    year_x_class   CMP median_pctile    4300  0.861443   0.783301   0.772413   0.793830     0.001998             NaN 0.115372  2.556898e-50
+  0_1y            year    BT   mean_pctile    1632  0.715084   0.479601   0.464474   0.493568     0.001998        0.773229 0.341950 7.413632e-171
+  0_1y            year    BT   top10_share    1632  0.350490   0.119536   0.104167   0.133594     0.001998             NaN 0.341950 7.413632e-171
+  0_1y            year    BT median_pctile    1632  0.802925   0.456233   0.427730   0.482497     0.001998             NaN 0.341950 7.413632e-171
+  0_1y            year   CMP   mean_pctile    4882  0.706607   0.480333   0.471976   0.488888     0.001998        0.744750 0.322263  0.000000e+00
+  0_1y            year   CMP   top10_share    4882  0.334084   0.118371   0.109177   0.127202     0.001998             NaN 0.322263  0.000000e+00
+  0_1y            year   CMP median_pctile    4882  0.792909   0.458080   0.441120   0.475099     0.001998             NaN 0.322263  0.000000e+00
+  0_1y    year_x_class    BT   mean_pctile    1632  0.715084   0.644441   0.633281   0.655130     0.001998        0.239439 0.112562  1.817652e-18
+  0_1y    year_x_class    BT   top10_share    1632  0.350490   0.268754   0.251210   0.287377     0.001998             NaN 0.112562  1.817652e-18
+  0_1y    year_x_class    BT median_pctile    1632  0.802925   0.718190   0.698707   0.737235     0.001998             NaN 0.112562  1.817652e-18
+  0_1y    year_x_class   CMP   mean_pctile    4882  0.706607   0.639554   0.633549   0.646139     0.001998        0.227050 0.100111  4.782199e-43
+  0_1y    year_x_class   CMP   top10_share    4882  0.334084   0.261545   0.251326   0.271410     0.001998             NaN 0.100111  4.782199e-43
+  0_1y    year_x_class   CMP median_pctile    4882  0.792909   0.709875   0.698659   0.720844     0.001998             NaN 0.100111  4.782199e-43
+  0_1y year_x_subclass    BT   mean_pctile    1445  0.718727   0.676831   0.668202   0.685707     0.001998        0.148357 0.071308  7.799972e-07
+  0_1y year_x_subclass    BT   top10_share    1445  0.351557   0.300544   0.285121   0.315588     0.001998             NaN 0.071308  7.799972e-07
+  0_1y year_x_subclass    BT median_pctile    1445  0.803096   0.757679   0.741872   0.773533     0.001998             NaN 0.071308  7.799972e-07
+  0_1y year_x_subclass   CMP   mean_pctile    4380  0.714627   0.677361   0.672324   0.682906     0.001998        0.131015 0.059316  7.737211e-14
+  0_1y year_x_subclass   CMP   top10_share    4380  0.344521   0.304931   0.296113   0.313927     0.001998             NaN 0.059316  7.737211e-14
+  0_1y year_x_subclass   CMP median_pctile    4380  0.800818   0.758617   0.749465   0.768976     0.001998             NaN 0.059316  7.737211e-14
+  0_1y            year    BT   mean_pctile    1445  0.718727   0.479944   0.464556   0.495995     0.001998        0.782702 0.346359 2.280259e-155
+  0_1y            year    BT   top10_share    1445  0.351557   0.120306   0.103806   0.137716     0.001998             NaN 0.346359 2.280259e-155
+  0_1y            year    BT median_pctile    1445  0.803096   0.456704   0.427828   0.486321     0.001998             NaN 0.346359 2.280259e-155
+  0_1y            year   CMP   mean_pctile    4380  0.714627   0.479969   0.471198   0.488680     0.001998        0.771294 0.333050  0.000000e+00
+  0_1y            year   CMP   top10_share    4380  0.344521   0.118592   0.109132   0.127854     0.001998             NaN 0.333050  0.000000e+00
+  0_1y            year   CMP median_pctile    4380  0.800818   0.457540   0.439735   0.474317     0.001998             NaN 0.333050  0.000000e+00
+  0_1y    year_x_class    BT   mean_pctile    1445  0.718727   0.648584   0.636904   0.660379     0.001998        0.238757 0.109737  1.307500e-15
+  0_1y    year_x_class    BT   top10_share    1445  0.351557   0.272861   0.253979   0.292042     0.001998             NaN 0.109737  1.307500e-15
+  0_1y    year_x_class    BT median_pctile    1445  0.803096   0.723066   0.701683   0.743526     0.001998             NaN 0.109737  1.307500e-15
+  0_1y    year_x_class   CMP   mean_pctile    4380  0.714627   0.646207   0.639205   0.653021     0.001998        0.233039 0.102099  3.335871e-40
+  0_1y    year_x_class   CMP   top10_share    4380  0.344521   0.269010   0.258447   0.279229     0.001998             NaN 0.102099  3.335871e-40
+  0_1y    year_x_class   CMP median_pctile    4380  0.800818   0.718764   0.706473   0.730517     0.001998             NaN 0.102099  3.335871e-40
+ 0_10y            year    BT   mean_pctile    1308  0.788434   0.474103   0.456297   0.493750     0.001998        0.911596 0.416664 3.613463e-206
+ 0_10y            year    BT   top10_share    1308  0.503823   0.165816   0.145260   0.187309     0.001998             NaN 0.416664 3.613463e-206
+ 0_10y            year    BT median_pctile    1308  0.901285   0.451315   0.402389   0.502008     0.001998             NaN 0.416664 3.613463e-206
+ 0_10y            year   CMP   mean_pctile    3781  0.767764   0.474262   0.463202   0.485027     0.001998        0.851504 0.379096  0.000000e+00
+ 0_10y            year   CMP   top10_share    3781  0.476329   0.165348   0.153650   0.177731     0.001998             NaN 0.379096  0.000000e+00
+ 0_10y            year   CMP median_pctile    3781  0.889365   0.451440   0.425460   0.478690     0.001998             NaN 0.379096  0.000000e+00
+ 0_10y    year_x_class    BT   mean_pctile    1308  0.788434   0.697216   0.684289   0.708781     0.001998        0.294568 0.143921  4.176892e-24
+ 0_10y    year_x_class    BT   top10_share    1308  0.503823   0.384118   0.363150   0.404453     0.001998             NaN 0.143921  4.176892e-24
+ 0_10y    year_x_class    BT median_pctile    1308  0.901285   0.827104   0.809786   0.842674     0.001998             NaN 0.143921  4.176892e-24
+ 0_10y    year_x_class   CMP   mean_pctile    3781  0.767764   0.692851   0.686116   0.699885     0.001998        0.241273 0.109584  5.339565e-40
+ 0_10y    year_x_class   CMP   top10_share    3781  0.476329   0.376135   0.364189   0.387470     0.001998             NaN 0.109584  5.339565e-40
+ 0_10y    year_x_class   CMP median_pctile    3781  0.889365   0.821068   0.810929   0.830916     0.001998             NaN 0.109584  5.339565e-40
+ 0_10y year_x_subclass    BT   mean_pctile    1142  0.788810   0.739185   0.730245   0.747949     0.001998        0.173581 0.094307  2.728362e-09
+ 0_10y year_x_subclass    BT   top10_share    1142  0.499124   0.425526   0.407180   0.443082     0.001998             NaN 0.094307  2.728362e-09
+ 0_10y year_x_subclass    BT median_pctile    1142  0.899393   0.861275   0.850098   0.871246     0.001998             NaN 0.094307  2.728362e-09
+ 0_10y year_x_subclass   CMP   mean_pctile    3348  0.775270   0.739916   0.734970   0.744711     0.001998        0.124796 0.061456  1.956346e-11
+ 0_10y year_x_subclass   CMP   top10_share    3348  0.479689   0.424915   0.415173   0.434886     0.001998             NaN 0.061456  1.956346e-11
+ 0_10y year_x_subclass   CMP median_pctile    3348  0.890718   0.859861   0.852762   0.865812     0.001998             NaN 0.061456  1.956346e-11
+ 0_10y            year    BT   mean_pctile    1142  0.788810   0.474434   0.453730   0.495420     0.001998        0.912025 0.420972 5.644072e-184
+ 0_10y            year    BT   top10_share    1142  0.499124   0.165014   0.144483   0.185661     0.001998             NaN 0.420972 5.644072e-184
+ 0_10y            year    BT median_pctile    1142  0.899393   0.452687   0.400800   0.504091     0.001998             NaN 0.420972 5.644072e-184
+ 0_10y            year   CMP   mean_pctile    3348  0.775270   0.474486   0.462657   0.486415     0.001998        0.873433 0.386322  0.000000e+00
+ 0_10y            year   CMP   top10_share    3348  0.479689   0.164270   0.152024   0.176523     0.001998             NaN 0.386322  0.000000e+00
+ 0_10y            year   CMP median_pctile    3348  0.890718   0.452959   0.423400   0.483339     0.001998             NaN 0.386322  0.000000e+00
+ 0_10y    year_x_class    BT   mean_pctile    1142  0.788810   0.702201   0.689650   0.714400     0.001998        0.283416 0.143009  7.648143e-21
+ 0_10y    year_x_class    BT   top10_share    1142  0.499124   0.384223   0.363398   0.407180     0.001998             NaN 0.143009  7.648143e-21
+ 0_10y    year_x_class    BT median_pctile    1142  0.899393   0.829489   0.811645   0.845818     0.001998             NaN 0.143009  7.648143e-21
+ 0_10y    year_x_class   CMP   mean_pctile    3348  0.775270   0.700612   0.693144   0.708208     0.001998        0.244355 0.108320  1.152341e-34
+ 0_10y    year_x_class   CMP   top10_share    3348  0.479689   0.380735   0.367981   0.394265     0.001998             NaN 0.108320  1.152341e-34
+ 0_10y    year_x_class   CMP median_pctile    3348  0.890718   0.826989   0.816750   0.837332     0.001998             NaN 0.108320  1.152341e-34
+done 57s

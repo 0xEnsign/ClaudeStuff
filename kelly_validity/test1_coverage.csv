@@ -1,0 +1,13 @@
+variable,label,rows_scored,sets_eligible,sets_complete,rows_eligible,firms
+PCT_0_5y,"Importance percentile, 0-5y (primary)",6408,1605,1583,6394,350
+PCT_0_1y,"Importance percentile, 0-1y",6514,1630,1615,6503,356
+PCT_0_10y,"Importance percentile, 0-10y",5089,1292,1114,4947,299
+KPST_imp_resid_0_5y,"Importance (log, year-residualised), 0-5y",6408,1605,1583,6394,350
+KPST_imp_resid_0_1y,"Importance (log, year-residualised), 0-1y",6514,1630,1615,6503,356
+KPST_imp_resid_0_10y,"Importance (log, year-residualised), 0-10y",5089,1292,1114,4947,299
+TOP10_0_5y,"KPST top-10% breakthrough, 0-5y (pp)",6408,1605,1583,6394,350
+TOP10_0_10y,"KPST top-10% breakthrough, 0-10y (pp)",5089,1292,1114,4947,299
+R_LBWD,log backward similarity 5y (novelty; lower = more novel),6514,1630,1615,6503,356
+R_LF01,log forward similarity 0-1y,6514,1630,1615,6503,356
+R_LF25,log forward similarity 2-5y (grants <= 2007),6408,1605,1583,6394,350
+R_LF610,log forward similarity 6-10y (grants <= 2002),5089,1292,1114,4947,299

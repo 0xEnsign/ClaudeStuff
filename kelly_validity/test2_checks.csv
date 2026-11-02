@@ -1,0 +1,10 @@
+check,value
+sample patents,6576.0
+sample patents in KPST universe,6514.0
+sample patents with USPC primary class,6514.0
+sample patents with USPC primary subclass,6514.0
+max |pctile_0_5y file - parquet|,2.980194091506405e-08
+population patents 1989-2010 (KPST),3047685.0
+population 1989-2010 with USPC primary class,3047612.0
+"agreement pctile>=0.90 vs KPST top10 flag, 0_5y",1.0
+"agreement pctile>=0.90 vs KPST top10 flag, 0_10y",1.0
