@@ -1,0 +1,6 @@
+dataset,table,estimator,test,W,df,p
+firm,"E (SIC2, preferred)",Poisson QMLE (HC1),all FOCAL_MAJORITY terms = 0,153.7402914761639,10,0.0
+firm,"E (SIC2, preferred)",Logit 1[y>0] (HC1),all FOCAL_MAJORITY terms = 0,44.588137492168656,10,2.5801201817277075e-06
+firm,"F (SIC4, preferred/headline)",Poisson QMLE (HC1),all FOCAL_MAJORITY terms = 0,146.02413310182186,10,0.0
+firm,"F (SIC4, preferred/headline)",Logit 1[y>0] (HC1),all FOCAL_MAJORITY terms = 0,32.06276112200242,10,0.0003909071576317924
+solo,provisional clogit,clogit,all IVxFM = 0,5.052100510343061,3,0.16802160132114852

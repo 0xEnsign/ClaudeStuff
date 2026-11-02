@@ -1,0 +1,73 @@
+dataset,family,n_vars,statistic,observed,null_mean,null_p95,perm_p,n_perm,strata
+firm,BT rows: IVs/controls/patent,20,mean |SMD|,0.19805242905694675,0.12748274867446183,0.19779270176490144,0.04997501249375312,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: IVs/controls/patent,20,max |SMD|,0.7860778733474925,0.30348816446717225,0.45234485380492756,0.0004997501249375312,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: IVs/controls/patent,20,# vars |SMD|>0.2,8.0,4.084,9.0,0.13243378310844578,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: IVs/controls/patent,20,# vars |Welch t|>1.96,5.0,1.941,6.0,0.11594202898550725,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: Kelly,9,mean |SMD|,0.4273964788690554,0.19725699008034878,0.3733181638459924,0.012993503248375811,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: Kelly,9,max |SMD|,0.6519025301694351,0.3296923161332564,0.5520368931154863,0.0074962518740629685,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: Kelly,9,# vars |SMD|>0.2,8.0,4.06,8.0,0.17091454272863568,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,BT rows: Kelly,9,# vars |Welch t|>1.96,7.0,2.2835,8.0,0.1054472763618191,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: IVs/controls/patent,20,mean |SMD|,0.20464286531053694,0.13140299344505765,0.1961130313706522,0.034482758620689655,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: IVs/controls/patent,20,max |SMD|,0.6546314409382185,0.3120941984292037,0.4482347911323487,0.0009995002498750624,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: IVs/controls/patent,20,# vars |SMD|>0.2,7.0,4.3475,10.0,0.23888055972013994,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: IVs/controls/patent,20,# vars |Welch t|>1.96,3.0,2.4345,6.0,0.3963018490754623,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: Kelly,9,mean |SMD|,0.5513527870960847,0.22093652331522481,0.4036429404620271,0.0009995002498750624,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: Kelly,9,max |SMD|,0.896483620817086,0.35347852054986584,0.581217750181639,0.0004997501249375312,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: Kelly,9,# vars |SMD|>0.2,8.0,4.6775,8.0,0.2613693153423288,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Comparison-row cluster means: Kelly,9,# vars |Welch t|>1.96,8.0,2.975,8.0,0.10694652673663169,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Kelly within-cluster gap (BT - comparison mean),4,mean |SMD|,0.08779318594705227,0.11453516866190605,0.2409345277128356,0.5962018990504747,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Kelly within-cluster gap (BT - comparison mean),4,max |SMD|,0.16155160350498873,0.18297460126566914,0.33876120036358015,0.5462268865567217,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Kelly within-cluster gap (BT - comparison mean),4,# vars |SMD|>0.2,0.0,0.641,3.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,Kelly within-cluster gap (BT - comparison mean),4,# vars |Welch t|>1.96,0.0,0.191,1.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,ALL (BT + comparison + gaps),62,mean |SMD|,0.2776422907229701,0.15117571254884515,0.21085826564917504,0.0014992503748125937,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,ALL (BT + comparison + gaps),62,max |SMD|,0.896483620817086,0.41467596705645154,0.590196115875466,0.0004997501249375312,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,ALL (BT + comparison + gaps),62,# vars |SMD|>0.2,31.0,17.7825,30.049999999999955,0.050474762618690654,2000,deciles of log BT_TOPIC_N_PATENTS
+firm,ALL (BT + comparison + gaps),62,# vars |Welch t|>1.96,23.0,9.66,20.0,0.02348825587206397,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: IVs/controls/patent,22,mean |SMD|,0.25124435011722784,0.13056959894706796,0.1936089357375894,0.0029985007496251873,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: IVs/controls/patent,22,max |SMD|,0.6439006255064226,0.33664301626558746,0.49296995566447094,0.0029985007496251873,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: IVs/controls/patent,22,# vars |SMD|>0.2,13.0,4.911,11.0,0.01899050474762619,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: IVs/controls/patent,22,# vars |Welch t|>1.96,8.0,1.5735,5.0,0.011494252873563218,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: Kelly,9,mean |SMD|,0.456919287218335,0.19133868653921648,0.37996070326395165,0.015992003998001,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: Kelly,9,max |SMD|,0.6574033811861347,0.32503972758365196,0.5590432112263449,0.015992003998001,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: Kelly,9,# vars |SMD|>0.2,8.0,3.7845,8.0,0.1424287856071964,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,BT rows: Kelly,9,# vars |Welch t|>1.96,8.0,1.6075,7.0,0.02848575712143928,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: IVs/controls/patent,22,mean |SMD|,0.25780998042142084,0.1319059242500062,0.19876449294834825,0.004997501249375313,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: IVs/controls/patent,22,max |SMD|,0.6690059951605166,0.3390408832762361,0.5051380749575678,0.0029985007496251873,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: IVs/controls/patent,22,# vars |SMD|>0.2,15.0,4.988,11.0,0.005997001499250375,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: IVs/controls/patent,22,# vars |Welch t|>1.96,8.0,1.5095,5.0,0.017991004497751123,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: Kelly,9,mean |SMD|,0.4757325037039623,0.22415625882035503,0.43208420059565533,0.02798600699650175,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: Kelly,9,max |SMD|,0.7390092733390599,0.35715248884490375,0.6050182743691715,0.009495252373813094,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: Kelly,9,# vars |SMD|>0.2,8.0,4.692,9.0,0.28585707146426786,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Comparison-row cluster means: Kelly,9,# vars |Welch t|>1.96,7.0,2.353,8.0,0.13243378310844578,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Kelly within-cluster gap (BT - comparison mean),4,mean |SMD|,0.06217872153209432,0.1372749521270245,0.2988757510217881,0.8540729635182409,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Kelly within-cluster gap (BT - comparison mean),4,max |SMD|,0.09482766449073712,0.21592781050045778,0.4163147479931393,0.8960519740129935,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Kelly within-cluster gap (BT - comparison mean),4,# vars |SMD|>0.2,0.0,0.983,4.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,Kelly within-cluster gap (BT - comparison mean),4,# vars |Welch t|>1.96,0.0,0.2455,2.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,ALL (BT + comparison + gaps),66,mean |SMD|,0.30063297388301996,0.1531763358128589,0.21399002362247715,0.0009995002498750624,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,ALL (BT + comparison + gaps),66,max |SMD|,0.7390092733390599,0.4455720981575539,0.6415781359604698,0.010494752623688156,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,ALL (BT + comparison + gaps),66,# vars |SMD|>0.2,44.0,19.417,32.0,0.0014992503748125937,2000,deciles of log BT_TOPIC_N_PATENTS
+solo,ALL (BT + comparison + gaps),66,# vars |Welch t|>1.96,31.0,7.3825,18.0,0.001999000499750125,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: IVs/controls/patent,22,mean |SMD|,0.19451000393736742,0.13531186825095812,0.1986805158094653,0.06196901549225387,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: IVs/controls/patent,22,max |SMD|,0.5042277964925388,0.33703044616119565,0.4926411066683606,0.04597701149425287,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: IVs/controls/patent,22,# vars |SMD|>0.2,10.0,4.9295,11.0,0.0879560219890055,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: IVs/controls/patent,22,# vars |Welch t|>1.96,7.0,2.066,6.0,0.028985507246376812,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: Kelly,9,mean |SMD|,0.5039010662260437,0.1931766653207745,0.37091005168297425,0.0024987506246876563,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: Kelly,9,max |SMD|,0.7363048360691442,0.33526620340792185,0.5608610004831758,0.0029985007496251873,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: Kelly,9,# vars |SMD|>0.2,8.0,3.86,8.0,0.14842578710644677,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,BT rows: Kelly,9,# vars |Welch t|>1.96,8.0,1.5865,6.0,0.020989505247376312,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: IVs/controls/patent,22,mean |SMD|,0.22446986721389076,0.13274273763329497,0.19759548994935125,0.014492753623188406,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: IVs/controls/patent,22,max |SMD|,0.6399417598348588,0.34467007824703416,0.4937325010617376,0.0029985007496251873,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: IVs/controls/patent,22,# vars |SMD|>0.2,11.0,5.0025,11.0,0.053973013493253376,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: IVs/controls/patent,22,# vars |Welch t|>1.96,7.0,1.603,5.0,0.0239880059970015,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: Kelly,9,mean |SMD|,0.5159036332846861,0.2426246347844051,0.4473058072357197,0.017991004497751123,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: Kelly,9,max |SMD|,0.7799206512696949,0.3857817683340717,0.6371878575364778,0.005997001499250375,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: Kelly,9,# vars |SMD|>0.2,8.0,5.097,9.0,0.32033983008495753,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Comparison-row cluster means: Kelly,9,# vars |Welch t|>1.96,8.0,2.665,8.0,0.09795102448775612,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Kelly within-cluster gap (BT - comparison mean),4,mean |SMD|,0.07506628520189187,0.14943148285206911,0.3091774704068322,0.8150924537731135,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Kelly within-cluster gap (BT - comparison mean),4,max |SMD|,0.11620409969065867,0.24175931679007637,0.46638545095832906,0.8715642178910544,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Kelly within-cluster gap (BT - comparison mean),4,# vars |SMD|>0.2,0.0,1.1215,4.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,Kelly within-cluster gap (BT - comparison mean),4,# vars |Welch t|>1.96,0.0,0.268,2.0,1.0,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,ALL (BT + comparison + gaps),66,mean |SMD|,0.2832737060868457,0.15691678136544945,0.2185264360736106,0.0014992503748125937,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,ALL (BT + comparison + gaps),66,max |SMD|,0.7799206512696949,0.4597620804406487,0.6575215932473324,0.0079960019990005,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,ALL (BT + comparison + gaps),66,# vars |SMD|>0.2,37.0,19.815,32.0,0.0079960019990005,2000,deciles of log BT_TOPIC_N_PATENTS
+solo_assigned,ALL (BT + comparison + gaps),66,# vars |Welch t|>1.96,30.0,8.014,18.0,0.0009995002498750624,2000,deciles of log BT_TOPIC_N_PATENTS
